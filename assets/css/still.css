@@ -1,0 +1,175 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", system-ui;
+  margin-inline: auto;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* reset end */
+
+/*? Header Mobile Part Start Here */
+
+.header-mobile{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #EAEBF0;
+  margin-bottom: 24px;
+}
+
+/* *? Main-content*/ */
+.container{
+  margin-inline: 16px;
+}
+
+.start-content{
+  margin-bottom: 32px;
+  align-items: center;
+  align-content: center;
+  margin-inline: auto;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+p{
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: -0.10000000149011612px;
+text-align: center;
+color:#5F6D7E;
+}
+
+.start-btn-area{
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.start-btn-area a{
+  text-decoration: none;
+  color: white;
+  background-color: #437EF7;
+  padding: 12px 18px;
+  text-align: center;
+  border-radius: 6px;
+  min-width: 320px;
+}
+
+.start-btn-area a:nth-child(2) {
+  color: black;
+  background-color: #EAEBF0;
+  border: 1px solid #DAE0E6;
+}
+
+.start-image{
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  review part coming babe */
+
+.review-content{
+  padding-inline: 16px;
+  gap: 16px;
+  max-width: 550px;
+  align-items: center;
+  align-content: center;
+  margin-inline: auto;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #272D37;
+  margin-top: 16px;
+}
+
+
+.review-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
+  margin-top: 8px;
+}
+
+.review-content .review-box {
+border: 1px solid #EAEBF0;
+border-radius: 5px;
+}
+
+
+.box-top a {
+  text-decoration: none;
+  border: 1px solid #EAEBF0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: black;
+  padding: 12px;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 32px;
+}
+
+.review-box:nth-child(2) {
+  margin-top: 32px;
+}
+
+.review-box{
+  padding: 16px;
+}
