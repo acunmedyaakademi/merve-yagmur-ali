@@ -33,7 +33,164 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  border-bottom: 1px solid #EAEBF0;
-  margin-bottom: 24px;
-  background-color:#2E3545;
+  border-bottom: 1px solid rgb(46, 53, 69);
+  background-color:rgb(21, 27, 40);;
 }
+
+/* Buradan itibaren  odeme planlarinin  oldugu hero kismi bulunmakta.  */
+
+.header-content {
+  background-color: rgb(21, 27, 40);
+  padding-inline: 16px;
+}
+
+.header-content-explaining {
+  padding-top:32px  ;
+}
+
+.header-content-explaining h1 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #F9F9F9;
+  margin-bottom: 16px;
+}
+
+.header-content-explaining p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: #A5ACBA;
+}
+
+.subscription-type {
+  margin-inline:auto;
+  max-width: 343px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 20px;
+  background-color: rgb(44, 52, 68);
+  padding: 4px 5px;
+  border-radius: 5px;
+}
+
+.monthly {
+  background-color: rgb(51, 59, 72);
+  padding: 9px 52px;
+  border-radius: 5px;
+
+}
+
+.yearly {
+  padding: 9px 52px;
+  color: #A5ACBA;
+}
+
+.subscriptions-part {
+  margin-block:32px ;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+
+}
+
+.subscription {
+  padding: 24px;
+  background-color: rgb(28, 37, 52);
+  margin-bottom:16px ;
+  border-radius:5px ;
+ 
+}
+
+.subscription-pricing {
+  display: flex;
+  align-items: baseline;
+}
+
+.subscription-pricing h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #F9F9F9;
+}
+
+.subscription-pricing p {
+line-height: 24px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+color:#A5ACBA;
+}
+
+.subscription-explaining h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color:#F9F9F9;
+  padding-block: 24px 8px ;
+}
+
+.subscription-explaining p {
+line-height: 24px;
+text-align: left;
+color:#A5ACBA;
+padding-bottom:20px;
+border-bottom:1px solid #2E3545
+}
+
+.subscription-package {
+  padding-top: 16px;
+}
+
+.subscription-package-item {
+  display: flex;
+  gap: 12px;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color:#F9F9F9;
+  align-items: center;
+  padding-top: 12px;
+}
+
+
+
+
+.buy-now a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(67, 126, 247);
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 20px;
+  padding-block: 12px;
+  max-width: 320px;
+
+}
+
+
+@media (width>768px) {
+  .subscriptions-part {
+    grid-template-columns:repeat(2,1fr) ;
+    gap:32px ;
+  }
+}
+
+@media (width>1440px) {
+  .subscriptions-part {
+    grid-template-columns:repeat(3,1fr) ;
+    gap:32px ;
+  }
+}
+
+
