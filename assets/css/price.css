@@ -247,7 +247,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
   .data-image-desktop {
     display: block;
-    width: 560px;
+    min-width: 500px;
   }
 
   .data-img-tb {
