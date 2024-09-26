@@ -120,7 +120,6 @@ a{
   background-color: rgb(28, 37, 52);
   margin-bottom:16px ;
   border-radius:5px ;
- 
 }
 
 .subscription-pricing {
@@ -176,9 +175,6 @@ border-bottom:1px solid #2E3545
   padding-top: 12px;
 }
 
-
-
-
 .buy-now a {
   display: block;
   color: white;
@@ -189,25 +185,21 @@ border-bottom:1px solid #2E3545
   margin-top: 20px;
   padding-block: 12px;
   max-width: 320px;
-
 }
 
-
-@media (width>768px) {
+@media (width>750px) {
   .subscriptions-part {
     grid-template-columns:repeat(2,1fr) ;
     gap:32px ;
   }
 }
 
-@media (width>1440px) {
+@media (width>1200px) {
   .subscriptions-part {
     grid-template-columns:repeat(3,1fr) ;
     gap:32px ;
   }
 }
-
-
 
 /* footer part start here  */
 
@@ -233,7 +225,6 @@ border-bottom:1px solid #2E3545
   color: #F9F9F9;
   margin-top: 32px;
   margin-bottom: 16px;
-
 }
 
 .email-footer-btn{
@@ -347,7 +338,7 @@ border-bottom:1px solid #2E3545
 
 
 
-@media (width >= 758px){
+@media (width >= 750px){
   .footer-top{
     display: flex;
     flex-direction: column;
@@ -374,6 +365,12 @@ border-bottom:1px solid #2E3545
     grid-template-columns: 1fr 1fr 1fr 1fr;
   border-bottom: 1px solid rgb(46, 53, 69);
   background-color:rgb(21, 27, 40);;
+
+}
+.customer-content-inner{
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap: 40px;
 }
 }
 /* Buradan itibaren  odeme planlarinin  oldugu hero kismi bulunmakta.  */
@@ -445,7 +442,6 @@ border-bottom:1px solid #2E3545
   background-color: rgb(28, 37, 52);
   margin-bottom:16px ;
   border-radius:5px ;
- 
 }
 
 .subscription-pricing {
@@ -501,9 +497,6 @@ border-bottom:1px solid #2E3545
   padding-top: 12px;
 }
 
-
-
-
 .buy-now a {
   display: block;
   color: white;
@@ -514,9 +507,7 @@ border-bottom:1px solid #2E3545
   margin-top: 20px;
   padding-block: 12px;
   max-width: 320px;
-
 }
-
 
 @media (width>768px) {
   .subscriptions-part {
@@ -525,10 +516,15 @@ border-bottom:1px solid #2E3545
   }
 }
 
-@media (width>1440px) {
+@media (width>1200px) {
   .subscriptions-part {
     grid-template-columns:repeat(3,1fr) ;
     gap:32px ;
+  }
+  .customer-content-inner{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -558,3 +554,54 @@ border-bottom:1px solid #2E3545
 }
 
 /*Yagmur section end*/
+
+
+/* customer review content start */
+.customer-box{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+.customer-review-content {
+  padding-block: 32px;
+  padding-inline: 16px;
+  background-color: #F8F9FB;
+}
+
+.review-avatar-text h5{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #272D37;
+}
+
+.review-avatar-text span{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
+}
+
+.customer-review-content h2{
+  color: #272D37;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom:40px ;
+}
+
+.review-avatar-part{
+  display: flex;
+  gap: 10px;
+}
+.customer-content-inner{
+  display: grid;
+  gap: 40px;
+}
