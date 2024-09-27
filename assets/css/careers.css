@@ -114,14 +114,18 @@ display: none;
 
 .select-content{
   background-color: #F8F9FB;
+  padding-inline: 16px;
 }
 
+.select-content-text{
+  display: grid;
+}
 .select-content-text span{
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: -0.10000000149011612px;
-  text-align: left;
+  text-align: center;
   color: #437EF7;
   margin-top: 32px;
   margin-bottom: 8px;
@@ -147,8 +151,32 @@ display: none;
   margin-bottom: 32px;
 }
 
+.select-content-table{
+  display: grid;
+  gap:20px;
+}
 
+.selelct-inner{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 550px;
+}
 
+label{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color:#272D37;
+}
+
+#cars{
+  padding: 12px;
+}
+
+/* select part over */
 
 
 
@@ -175,6 +203,10 @@ display: none;
 }
 .mini-stairs{
   display: none;
+}
+.select-content-table{
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
 }
 }
 
