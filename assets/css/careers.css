@@ -178,6 +178,17 @@ label{
 
 /* select part over */
 
+/* list-content start here */
+
+.list-content{
+  padding-inline: 16px;
+  margin-top: 50px;
+}
+
+.list-content-top{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /* media query start here */
