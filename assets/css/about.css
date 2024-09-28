@@ -328,6 +328,15 @@ h1{
 .web{
   display: none;
 }
+
+/*  */
+
+
+
+
+
+
+
 /* tablet versiyon */
 @media (width >= 758px){
   .tablet-photo{
