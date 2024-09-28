@@ -184,6 +184,11 @@ label{
 .list-content{
   padding-inline: 16px;
   margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.type{
+  display: none;
 }
 
 .list-content-top{
@@ -224,7 +229,6 @@ th, td {
 }
 
 th {
-  font-weight: bold;
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
@@ -235,11 +239,24 @@ th {
 
 td {
   border-top: 1px solid #e0e0e0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+
+
 }
 
 .role {
-  font-weight: bold;
-  font-size: 1.1em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #272D37;
+  
 }
 
 .description {
@@ -282,9 +299,7 @@ color: #272D37;
   color: #437EF7;
 
 }
-.list-content-desktop{
-  display: none;
-}
+
 /* Footer start here */
 /* footer part start here  */
 
@@ -486,11 +501,25 @@ color: #272D37;
     background-color:#151B28 ;
     padding-inline: 80px;
   }
+
+  .table-container {
+    width: 100%;
+    min-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+
   .email-footer-btn{
     display: flex;
     flex-direction: row;
     gap: 24px;
   } 
+  .type{
+    display: block;
+  }
 
   .footer-top{
     display: block;
