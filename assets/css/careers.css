@@ -172,3 +172,139 @@ display: none;
   }
 
 }
+
+/* Yagmur section start */
+
+.action-section {
+  padding-inline: 16px;
+  padding-block: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.action-text h4 {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #437EF7;
+  margin-bottom: 8px;
+}
+
+.action-text h2 {
+  font-family: 'Inter';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #272D37;
+  margin-bottom: 16px;
+}
+
+.action-text p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5F6D7E;
+  margin-bottom: 32px;
+}
+
+.data-img-tb {
+  display: none;
+}
+
+.data-img-desktop {
+  display: none;
+}
+
+.start-now-section {
+  background-color: #437EF7;
+  max-width: 133px;
+  display: flex;
+  gap: 6px;
+  padding-block: 12px;
+  padding-inline: 18px;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+
+.start-now-section a {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.action-desktop {
+  display: none;
+}
+
+@media (width > 375px) {
+  .data-img-mb {
+    display: none;
+  }
+  
+  .data-img-desktop {
+    display: none;
+  }
+
+  .data-img-tb {
+    display: block;
+  }
+
+  .action-section {
+    padding-inline: 32px;
+    padding-block: 40px;
+    gap: 40px
+  }
+}
+
+@media (width > 768px) {
+ 
+  .action-section {
+      padding-block: 64px;
+      padding-inline: 80px;
+     gap: 64px;
+  }
+
+  .mb-tb {
+    display: none;
+  }
+
+  .action-desktop {
+    display: flex;
+    gap: 140px;
+  }
+
+  .action-all {
+    display: flex;
+    gap: 140px;
+  }
+
+  .data-img-tb {
+    display: none;
+  }
+
+  .data-img-mb {
+    display: none;
+  }
+
+  .data-img-desktop {
+    display: block;
+    min-width: 500px;
+  }
+
+  .action-text {
+    width: 516px;
+    padding-top: 116px;
+  }
+
+}
+
+/* Yagmur section end */
+
