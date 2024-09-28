@@ -1,0 +1,177 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", system-ui;
+  margin-inline: auto;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* reset end */
+
+.header-mobile{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 16px;
+}
+
+.header-desktop{
+  display: none;
+}
+
+.container{
+  padding-inline: 16px;
+}
+
+.avatar-content{
+  margin-top: 32px;
+}
+
+.home-span{
+  color: #5F6D7E;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+}
+
+.manuel-arrow{
+  color: black;
+}
+
+.page-blue {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #437EF7;
+}
+
+.avatar-content-inner{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.avatar-text h3{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #272D37;
+}
+
+.avatar-text p{
+  color: #5F6D7E;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+
+}
+/* ? avatar content done */
+
+
+
+/* desktop version */
+@media(width >= 1280px){
+  .graphic-content{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 55px;
+    justify-content: space-between;
+  }
+  .number-users-content{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .graphic-text-inner{
+    align-self: center;
+  }
+
+  .header-mobile{
+    display: none;
+  }
+
+  .header-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 112px;
+    padding-block:20px;
+  }
+
+  .dekstop-nav {
+    margin-right:auto;
+    gap: 32px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dekstop-nav a{
+    text-decoration: none;
+    color: #272D37;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .desktop-links a{
+    text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  padding: 12px 18px;
+  border-radius: 6px;
+  }
+
+  .white-sign{
+    color: #437EF7;
+  }
+
+  .blue-log{
+    color: white;
+    background-color:  #437EF7;
+  }
+}
