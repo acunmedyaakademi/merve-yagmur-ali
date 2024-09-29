@@ -560,7 +560,10 @@ color: #272D37;
     padding-block:20px;
     margin-bottom: 48px;
   }
-
+  .arrows-nav{
+    display: flex;
+    gap: 6px;
+  }
   .dekstop-nav {
     margin-right:auto;
     gap: 32px;

@@ -368,6 +368,11 @@ h1{
 
 /* desktop version */
 @media(width >= 1280px){
+
+    .arrows-nav{
+      display: flex;
+      gap: 6px;
+    }
     .graphic-content{
       display: flex;
       flex-direction: row-reverse;
