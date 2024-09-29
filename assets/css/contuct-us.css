@@ -53,7 +53,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Ali Starts here */
+/* Ali css Starts here */
 
 .container {
   background-image: url("../img/background-img.png") ;
@@ -129,6 +129,45 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-inline:auto;
 }
 
+/* number users starts here */
+
+.number-users-content{
+  padding-top: 32px;
+  margin-bottom: 32px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 16px;
+}
+
+.number-users-inner{
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.number-users-h{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.number-users-p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
+}
+
+
 @media (width>=768px) {
   .filters {
     display: flex;
@@ -166,6 +205,14 @@ p, h1, h2, h3, h4, h5, h6 {
   
   .rating-content{
     max-width: 850px;
+  }
+
+  .number-users-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    justify-content: center;
+    padding-inline: 25px;
   }
   
  
@@ -259,115 +306,10 @@ p, h1, h2, h3, h4, h5, h6 {
     gap: 32px;
     margin-bottom: 62px;
   } 
+
+  .number-users-content{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
-/* Ali ends here */
-
-
-/* merve css starts here */
-/*? Blog part coming */
-
-.blog-content{
-  padding-inline: 16px;
-  margin-top: 40px;
-  margin-inline: auto;
-}
-
-.blog-content h4{
-  text-align: center;
-  margin-top: 42px;
-  margin-bottom:12px ;
-}
-
-.blog-content p{
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #5F6D7E;
-  margin-bottom: 24px;
-}
-
-.blog-content-inner{
-  border: 1px solid #EAEBF0;
-  display: flex;
-  flex-direction: column;
-  margin-inline: auto;
-  max-width: 550px;
-}
-
-.blog-content-inner-photo{
-  position: relative;
-  max-width: 550px;
-  margin-inline: auto;
-  display: inline-block;
-}
-
-.blog-content-inner-photo img{
-  border-top-left-radius: 7px;  
-  border-top-right-radius: 7px; 
-}
-
-.avatar{
-  position: absolute;
-  bottom: -20px;
-  right: 0;
-}
-
-.blog-content-inner-calender{
-  display: flex;
-  gap: 28px;
-  margin-top: 24px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  padding-inline: 32px;
-  color: #437EF7;
-  max-width: 550px;
-
-}
-
-.calender{
-  color: #5F6D7E;
-}
-
-.blog-content-inner-text h4 {
-  text-align: left;
-  padding-inline: 32px;
-  margin-bottom: 16px;
-  max-width: 550px;
-
-}
-
-.blog-content-inner-text p{
-  text-align: left;
-  padding-inline: 32px;
-  margin-bottom: 24px;
-}
-
-.blog-content-inner-link{
-  display: flex;
-  gap: 6px;
-  margin-bottom:24px ;
-  padding-inline: 32px;
-  max-width: 550px;
-
-
-}
-
-.blog-content-inner-link a{
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 22px;
-  text-align: left;
-  color: #437EF7;
-  display: inline-block;
-}
-/* merve ends starts here */
-
-
-
-/* yagmur css starts here */
-
-/* yagmur css ends here */
+/* Ali css ends here */
