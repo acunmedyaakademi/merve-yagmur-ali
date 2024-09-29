@@ -539,13 +539,13 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 
   .footer-middle {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 64px;
   }
 
   .footer-bottom {
     display: flex;
-    justify-content: space-between;
+    gap: 395px;
     align-items: center;
   }
 
@@ -559,8 +559,30 @@ p, h1, h2, h3, h4, h5, h6 {
 
   .footer-top {
     display: flex;
-    gap: 128px;
+    flex-direction: row;
+    justify-content: space-between;
   }
+
+  .footer-bottom-border {
+    border-bottom: 1px solid #2E3545;
+  }
+
+  .footer-middle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 152px;
+  }
+
+  .lists {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 142px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
 
 
