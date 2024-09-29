@@ -89,7 +89,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 16px;
-  border-bottom: 1px solid #2E3545;
+  border-bottom: 1px solid transparent;
   align-items: center;
 }
 
