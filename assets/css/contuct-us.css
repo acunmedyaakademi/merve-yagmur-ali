@@ -76,7 +76,14 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center
+
 }
+
+.container-color{
+  background-color:#F8F9FB ;
+}
+
+
 
 .header-mobile {
   display: grid;
@@ -85,6 +92,7 @@ h6 {
   border-bottom: 1px solid #2E3545;
   align-items: center;
 }
+
 
 .desktop-only {
   display: none;
@@ -154,7 +162,6 @@ h6 {
   gap: 32px;
   display: flex;
   flex-direction: column;
-  background-color: white;
   justify-content: center;
   align-items: center;
   padding-inline: 16px;
@@ -184,6 +191,11 @@ h6 {
   color: #5F6D7E;
 }
 
+.label-text-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* footer kismi burada basliyor. */
 
@@ -334,7 +346,6 @@ a {
   color: #A5ACBA;
 }
 
-
 @media (width>=768px) {
   .filters {
     display: flex;
@@ -407,13 +418,46 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: rgb(21, 27, 40); 
   }
+.input-inner{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  max-width: 880px;
+}
+.input-content{
+  max-width: 880px;
+  justify-items: center;
+  margin-inline: auto;
+
+}
+.label-text-btn{
+  max-width: 880px;
+
+}
+.message-label{
+  margin-top: 10px;
+}
+textarea {
+  width: 58ch; 
+}
+
+.label-text-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  display: inline-block;
+}
 
 }
 
 @media (width>=1280px) {
 
   .header-mobile {
-    display: flex;
+    display: flex ;
     justify-content: space-between;
   }
 
@@ -510,3 +554,71 @@ a {
 }
 
 /* Ali css ends here */
+
+
+/* merve css start here */
+.input-content{
+  padding-inline: 16px;
+  background-color: #F8F9FB;
+  margin-top: 32px;
+  padding-top: 48px;
+}
+
+.input-inner{
+  display: grid;
+  justify-items: center;
+}
+
+.input-content h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+label{
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #272D37;
+  margin-bottom: 8px;
+}
+
+input{
+  display: block;
+  border: 1px solid #DAE0E6
+}
+
+.message-label{
+  margin-top: 10px;
+}
+
+textarea{
+  border: 1px solid #DAE0E6
+}
+
+.checkbox-label{
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+color: #272D37;
+}
+
+button{
+  background-color: #437EF7;
+  color: white;
+  display: block;
+  width: 343px;
+  border-radius: 6px;
+  padding-block: 12px;
+  border: 1px solid transparent;
+}
