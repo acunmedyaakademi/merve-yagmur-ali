@@ -237,7 +237,7 @@ a{
   }
 
   .desktop-links a{
-    text-decoration: none;
+  text-decoration: none;
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
@@ -255,3 +255,253 @@ a{
     background-color:  #437EF7;
   }
 }
+
+/* yagmur section start */
+
+.easier-integrations {
+  padding-block: 32px;
+  padding-inline: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.easier-integrations-text h3 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #272D37;
+  margin-bottom: 12px;
+}
+
+.easier-integrations-text p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5F6D7E;
+}
+
+.integrations {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+.integration {
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px 0px #1018280A;
+  padding-block: 16px;
+  border-radius: 5px;
+}
+
+.integration img {
+  display: block;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.integration h4 {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #272D37;
+  margin-bottom: 8px;
+}
+
+.integration p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5F6D7E;
+  padding-inline: 16px;
+}
+
+.footer {
+  background-color: #151B28;
+  padding-inline: 16px;
+  padding-block: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-top img {
+  margin-bottom: 22px;
+}
+
+.footer-top p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #A5ACBA;
+  margin-bottom: 16px;
+}
+
+.btns {
+  display: flex;
+  gap: 0px;
+  text-decoration: none;
+  margin-bottom: 28px;
+}
+
+.enter-email-btn a {
+  background-color: #2C3444;
+  border: 1px solid #2E3545;
+  padding-block: 16px;
+  padding-left: 16px;
+  padding-right: 100px;
+  display: block;
+  
+  color: #A5ACBA;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+}
+
+.submit-btn a {
+  background-color: #437EF7;
+  padding: 12px 18px;
+  display: block;
+
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px;
+  list-style: none;
+  justify-content:space-between;
+  margin-bottom: 24px;
+}
+
+.lists ul {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #F9F9F9;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+.lists a {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #A5ACBA;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-bottom-border {
+  border-top: 1px solid #2E3545;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.footer-bottom p {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #A5ACBA;
+}
+
+@media (width > 758px) {
+  .easier-integrations {
+    padding-inline: 32px;
+    padding-block: 40px;
+  }
+
+  .integrations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tb {
+    display: none;
+  }
+
+  .footer {
+    padding-inline: 32px;
+    padding-block: 40px;
+  }
+
+  .lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px;
+  }
+}
+
+@media (width > 1280px) {
+  .easier-integrations {
+    padding-block: 64px;
+    padding-inline: 80px;
+    gap: 64px;
+  }
+
+  .tb {
+    display: block;
+  }
+
+  .integrations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer {
+    padding-block: 64px;
+    padding-inline: 80px;
+  }
+
+  .footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 183px;
+  }
+
+  .lists {
+    gap: 183px;
+  }
+
+}
+
