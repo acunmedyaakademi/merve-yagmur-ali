@@ -719,7 +719,10 @@ h1{
   
     .question {
       display: flex;
-      
+    }
+
+    .desktop-detail {
+      display: flex;
     }
   
     .touchable { 
