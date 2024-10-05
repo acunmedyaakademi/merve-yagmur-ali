@@ -89,7 +89,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 16px;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #2E3545;
   align-items: center;
 }
 
@@ -171,7 +171,6 @@ h6 {
   gap: 8px;
   display: flex;
   flex-direction: column;
-
 }
 
 .number-users-h {
@@ -273,8 +272,9 @@ a {
 
 .logo-footer {
   display: flex;
+  padding-inline: 16px;
   flex-direction: column;
-  align-items: center;
+  padding-top: 32px;
 }
 
 .logo-footer-text p {
@@ -286,7 +286,6 @@ a {
   color: #A5ACBA;
   margin-top: 16px;
   margin-bottom: 24px;
-  padding-inline: 16px;
 }
 
 .footer-list {
@@ -347,12 +346,7 @@ a {
 }
 
 @media (width>=768px) {
-  .filters {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 32px;
-    align-items: center;
-  }
+  
 
   .desktop-only {
     display: none;
@@ -360,6 +354,15 @@ a {
 
   .sign-log {
     display: none;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
   }
 
   .blog-container {
@@ -387,12 +390,18 @@ a {
   }
 
   .number-users-content {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    justify-content: center;
-    padding-inline: 25px;
+    justify-content: space-evenly;
+    padding-inline: 80px;
   }
+
+  .number-users-inner {
+    max-width:268px ;
+    gap: 48px;
+  }
+  
 
   .footer-bottom-social {
     display: none;
@@ -459,6 +468,7 @@ textarea {
   .header-mobile {
     display: flex ;
     justify-content: space-between;
+    align-self: center;
   }
 
   .site-left-side {
@@ -517,7 +527,6 @@ textarea {
     display: flex;
     align-items: center;
     position: relative;
-    left: 420px;
   }
 
   .sign-up a {
