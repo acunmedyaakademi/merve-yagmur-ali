@@ -75,7 +75,7 @@ a {
 }
 
 .header-content-explaining {
-  padding-top: 32px;
+  padding-top: 48px;
 }
 
 .header-content-explaining h1 {
@@ -125,10 +125,11 @@ a {
 }
 
 .subscriptions-part {
+  max-width: 1280px;
   margin-block: 32px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-
+  margin-inline: auto;
 }
 
 .subscription {
@@ -211,7 +212,6 @@ a {
 .email-footer-btn {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .sign-up {
@@ -227,6 +227,8 @@ a {
   margin-bottom: 16px;
   min-width: 320px;
 }
+
+
 
 .log-in {
   font-size: 15px;
@@ -332,9 +334,7 @@ a {
   padding-inline: 16px;
 }
 
-.header-content-explaining {
-  padding-top: 32px;
-}
+
 
 .header-content-explaining h1 {
   font-family: "Inter";
@@ -511,8 +511,6 @@ a {
 .product-features {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding-block: 32px;
   padding-inline: 16px;
 }
 
@@ -541,7 +539,7 @@ a {
 
 .features-part {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 
@@ -622,9 +620,11 @@ a {
 }
 
 .customer-review-content {
+  max-width:1280px ;
   padding-block: 32px;
-  padding-inline: 16px;
+  padding-inline: 80px;
   background-color: #F8F9FB;
+  margin-inline: auto;
 }
 
 .review-avatar-text h5 {
@@ -705,8 +705,18 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-bottom: 1px solid transparent;
     background-color: rgb(21, 27, 40);
-    ;
+  }
 
+  .header-content-explaining h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+  }
+
+  .logo-footer-photo {
+    margin-left: 0px;
   }
 
   .customer-content-inner {
@@ -731,7 +741,6 @@ a {
   .product-features {
     padding-block: 40px;
     padding-inline: 32px;
-    gap: 40px;
   }
 
   .features-text p {
@@ -761,16 +770,14 @@ a {
     display: none;
   }
 
-  .product-features {
-    padding-inline: 80px;
-    padding-block: 64px;
-    gap: 64px;
+  .product-features img {
+    margin-inline: auto;
   }
 
   .features-part {
     display: flex;
+    flex-direction: column;
     padding-inline: 32px;
-    gap: 140px;
   }
 
   .data-img-mb {
@@ -779,7 +786,7 @@ a {
 
   .data-image-desktop {
     display: block;
-    min-width: 500px;
+    min-width: 343px;
   }
 
   .data-img-tb {
@@ -843,7 +850,27 @@ a {
     line-height: 22px;
     text-align: left;
     color: white;
+  }
 
+  .features-part {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-inline: 32px;
+    gap: 140px;
+  }
+
+  .product-features h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+
+  .product-features-text {
+    max-width: 800px;
+    margin-inline: auto;
   }
 
   .desktop-links {
