@@ -494,6 +494,16 @@ color: #272D37;
 }
 }
 
+select {
+   /* Tarayıcı varsayılan okunu gizler */
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../img/arrow-down.svg') no-repeat; /* Özel bir ok ikonu eklemek istersen */
+  background-position: calc(100% - 16px) center; /* Oku sola yaklaştırır */
+  padding-right: 30px; /* Sağ kısımda daha fazla boşluk bırakır */
+}
+
+
 
 /*? desktop version */
 @media (width >= 1200px){
