@@ -172,6 +172,7 @@ border-radius: 5px;
 
 .review-box{
   padding: 16px;
+  
 }
 
 /* price content start here */
@@ -276,6 +277,9 @@ h3{
 .blue .price-box-white-text p{
   color: #B1CCFB;
 }
+
+
+
 
 /* ? Blog part coming */
 
@@ -515,15 +519,35 @@ input{
   max-width: 1280px;
   margin-inline: auto;
   display: none;
+}
+
+.product-content-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.product-content-p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: #5F6D7E;
 
 }
+
 
 .product-container{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding-inline: 32px;
-  margin-top: 64px;
-  gap: 140px;
+  gap: 40px;
+  margin-top: 40px;
 }
+
 .product-text h6{
 font-size: 14px;
 font-weight: 600;
@@ -532,6 +556,7 @@ letter-spacing: -0.10000000149011612px;
 text-align: left;
 color: #437EF7;
 }
+
 .product-text h3{
 font-size: 32px;
 font-weight: 600;
@@ -551,9 +576,15 @@ text-align: left;
   margin-bottom: 40px;
 }
 
- .desktop-main-photo{
+.product-text{
+ align-self: center;
+ max-width: 520px;
+}
+
+.desktop-main-photo{
 display: none;
 }
+
 /* /* Footer part coming  */
 
 .footer-content{
@@ -748,7 +779,11 @@ display: none;
   .blog-content-inner{
     max-width: 850px;
   }
-  
+  .blog-content-inner-photo {
+    max-width: 850px;
+
+  }
+
   .rating-avatar{
     display: flex;
   }
@@ -795,7 +830,9 @@ display: none;
     .header-mobile{
       display: none;
     }
-  
+  .last-white{
+    display: none;
+  }
     .header-desktop{
       display: flex;
       align-items: center;
@@ -803,6 +840,7 @@ display: none;
       padding-inline: 112px;
       padding-block:20px;
       margin-bottom: 48px;
+      border-bottom: 1px solid #EAEBF0 ;
     }
   
     .dekstop-nav {
@@ -891,6 +929,10 @@ display: none;
   .review-content p{
   text-align: center;
   }
+  .white-box{
+  display: none;
+  }
+
   
   .product-content{
     display: block;
@@ -944,6 +986,7 @@ display: none;
     gap: 80px;
     padding-block: 64px;
     justify-content: space-around;
+    display: none;
   }
 
   .last-white{
@@ -951,7 +994,12 @@ display: none;
   }
 
   .blue{
-    flex-direction: row-reverse;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .price-box-white-image img{
+   min-width: 560px;
   }
   .desktop-main-photo{
     display: inline-block;
@@ -959,5 +1007,11 @@ display: none;
   .mobile-photo{
     display: none;
   }
+
+  .price-box-white-text{
+    max-width: 550px;
+    align-self: center;
+  }
+  
   }
   
